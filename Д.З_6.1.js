@@ -19,5 +19,5 @@ function checkProbabilityTheory(count) {
 
 
 
-var randomCount = Math.floor(Math.random() * 901) + 100
-checkProbabilityTheory(randomCount)
+var rnd = Math.floor(Math.random() * 901) + 100
+checkProbabilityTheory(rnd)
