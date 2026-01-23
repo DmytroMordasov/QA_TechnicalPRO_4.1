@@ -1,7 +1,7 @@
 function checkProbabilityTheory(count) {
     var even = 0
     var odd = 0
-        for (var i = 0; i < count; i++) {
+    for (var i = 0; i < count; i++) {
         var rnd = Math.floor(Math.random() * 901) + 100 
          if (rnd % 2 === 0) {
             even++
